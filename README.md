@@ -16,28 +16,27 @@
 	* [highCharts on nbviewer](http://nbviewer.ipython.org/github/gtnx/pandas-highcharts/blob/master/example.ipynb)
 
 # Calendar
-##0227
-* 0227 [rundown](http://nbviewer.ipython.org/github/jirlong/pss2015/blob/master/ipynb/pss_index.ipynb)
-* 0227 [foreach problem](http://nbviewer.ipython.org/github/jirlong/pss2015/blob/master/ipynb/pss0227_foreach.ipynb)
-* [Practice0227](http://form.jotform.me/form/50623030711439)
-* Next week
-	* Must [INSTALL](https://github.com/jirlong/pss2015/blob/master/Lectures/C1-InstallingDevelopmentEnvironments.pdf) Enthought Canopy.
-	* Submit your screenshot of playing Elsa game on code.org to moodle platform.
 
-##0305
-* [Submitting Practice0305](http://form.jotform.me/form/50623293585459) For those visitors who cannot submit to moodle2.
-	1. Using print-screen to show the json and paste to a file.
-	2. Follow the 1st step, state the hyperlink of the data source, and describe the data.
-	3. If a data field is available on the open data site, upload the description of data field also.
+##0319
+* Download 0319 course material from [here](https://www.dropbox.com/s/6o108e07niednxe/Practice0319.zip?dl=0)
+* [Submitting Practice0319](http://form.jotform.me/form/50765123104445) Due 03/25 23:59
+	* Export your code and result __as html__ then submit it.
 
 ##0312
 * [Submitting Practice0312](http://form.jotform.me/form/50682525089461) Due 03/18 23:59
 	* [Practice0312](http://nbviewer.ipython.org/github/jirlong/pss2015/blob/master/quiz/Practice0312.ipynb) preview
 	* Download the /quiz/Practice0312.ipynb and modify it to fit the answer.
 	* Export your code and result __as html__ then submit it.
-	* 旁聽雖無計分問題，但至少需要嘗試完成前兩題（腳踏車有幾台？按照不同月份算每月天數？），有嘗試但沒成功就繳交屍體（也就是包含錯誤訊息的ipynb轉成html）。
 
-##0319
-* Download 0319 course material from [here](https://www.dropbox.com/s/6o108e07niednxe/Practice0319.zip?dl=0)
-* [Submitting Practice0319](http://form.jotform.me/form/50765123104445) Due 03/25 23:59
-	* Export your code and result __as html__ then submit it.
+##0305
+* Practice0305 (Closed)
+	1. Using print-screen to show the json and paste to a file.
+	2. Follow the 1st step, state the hyperlink of the data source, and describe the data.
+	3. If a data field is available on the open data site, upload the description of data field also.
+
+##0227
+* Practice0227 (Closed)
+* Next week
+	* Must [INSTALL](https://github.com/jirlong/pss2015/blob/master/Lectures/C1-InstallingDevelopmentEnvironments.pdf) Enthought Canopy.
+	* Submit your screenshot of playing Elsa game on code.org to moodle platform.
+
