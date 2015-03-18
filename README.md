@@ -21,6 +21,7 @@
 * Download 0319 course material from [here](https://www.dropbox.com/s/6o108e07niednxe/Practice0319.zip?dl=0)
 * [Submitting Practice0319](http://form.jotform.me/form/50765123104445) Due 03/25 23:59
 	* Export your code and result __as html__ then submit it.
+* NEXT WEEK: If you are not a Chrome browser user, please install it temporarily in your computer and try to use it. We will show how to read a local database by using Chrome visit history as an example.
 
 ##0312
 * [Submitting Practice0312](http://form.jotform.me/form/50682525089461) Due 03/18 23:59
