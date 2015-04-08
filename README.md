@@ -1,5 +1,7 @@
 # Announcement
 * [Materials](http://nbviewer.ipython.org/github/jirlong/pss2015/tree/master/)
+* [Forum](https://groups.google.com/d/forum/ntnu_pss) Classmates can ask any questions about course and practices here.
+* [FW:滴水不漏的使用者研究，讓「UBike」成為最受歡迎的台北公共自行車 app](http://www.inside.com.tw/2015/04/02/ubike-app-user-research)
 
 # Links
 * [Syllabus](https://docs.google.com/document/d/1Ff4Bzufrc-kw40OQmUQsSwE5cPKdQH3e0Uh4VL_E9Fo/edit?usp=sharing)
@@ -16,6 +18,9 @@
 	* [highCharts on nbviewer](http://nbviewer.ipython.org/github/gtnx/pandas-highcharts/blob/master/example.ipynb)
 
 # Calendar
+
+##0409
+* [Submitting Practice0409](http://form.jotform.me/form/50975309851463) Due 04/15 23:59
 
 ##0326
 * [Video](https://www.dropbox.com/sh/q41les5hn11anv2/AAAb59rl9nNgGRTlz0sovy24a?lst) Due to Dropbox is not designed for streaming video, please DOWNLOAD them if you needs.
