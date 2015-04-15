@@ -19,6 +19,10 @@
 
 # Calendar
 
+##0416
+* [Instruction for Practice0326](https://icloud.itc.ntnu.edu.tw/navigate/s/A72A05E0C71C4A7083A2C49893D1580AVQY)
+* Midterm: 04/30
+
 ##0409
 * [Submitting Practice0409](http://form.jotform.me/form/50975309851463) Due 04/15 23:59
 
