@@ -22,6 +22,7 @@
 ##0423
 * [Export to .py](https://www.evernote.com/l/ABGj3WVuHxRHF62e1IM5ks3z22tyorTYVJw)
 * [Review hints](https://www.evernote.com/l/ABFHT5lh4MpMPJqx3qcvhVCFPT-ggDxlxbw)
+* [Online book for review](http://www.pythonlearn.com/book.php) Reading Ch.1~9 except Ch.7
 
 ##0416
 * [Instruction for Practice0326](https://icloud.itc.ntnu.edu.tw/navigate/s/A72A05E0C71C4A7083A2C49893D1580AVQY)
