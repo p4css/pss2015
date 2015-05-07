@@ -1,139 +1,15 @@
-
 # coding: utf-8
-
-# # REVIEW
-# ## What you have known
-# * All list operations: creating, accessing, methods for list including len(), enumerate(), append(), sorted()
-# * All dictionary operations: 
-# 
-# ## Skils
-# * for-each in for-each to access a __two dimensional__ list 
-# 
-# ## Case study
-# * Short questions: Couting fruits, validating Y/M/D
-# * Youbike
-#     * 計算總腳踏車數
-#     * 計算每個行政區的腳踏車數
-#     * 計算總腳踏車數的變化
-#     * 繪製總腳踏車數的變化的曲線圖
-#     * 找出哪個腳踏車站有大幅度的曲線變化
-#     * 判斷每個腳踏車站的全滿時刻
-# * NEXT CASE STUDIES
-#     * Chrome History
-#     * Twitter API and nytime API
-#     * Crawling news from ettoday
-#     * Parsing news of apple news
-
-# # Revewing list
-
-# In[2]:
-
-alist = [1, 3, 5, 7, 9]
-blist = [12, 44, 6, 18, 10]
-print len(alist)
-print sorted(blist)
-print enumerate(alist)
-for b in blist:
-    alist.append(b)
-for i, a in enumerate(alist):
-    print i, a
-
-
-# In[3]:
-
-# OTHER LIST FUNCTIONS LIST EXTENSION 
-alist.extend(blist) # merge two lists
-alist = alist + blist # also be able to merge two lists
-print alist
-
-
-# ## Create a new empty list
-# 
-
-# In[4]:
-
 import urllib2
 import json
+
 response = urllib2.urlopen('http://opendata.dot.taipei.gov.tw/opendata/gwjs_cityhall.json')
 data = json.load(response)
-# initialize a list
-sbi_list = [] 
-
+sbi_list = []
 for site in data['retVal']:
     sbi_list.append([int(site['sbi']), site['sna'], site['tot']])
-
 # Print out the outcome
-for k, v, i in sorted(sbi_list, reverse=True)[1:-1]:
+for k, v, i in sorted(sbi_list, reverse=True)[:10]:
     print k, i, v
-# for site in data['retVal']:
-#     sbi_list.append([int(site['sbi']), site['sna']])
-# for k, v in sorted(sbi_list, reverse=True):
-#     print k, v
-
-
-# # Reviewing Dictionary
-
-# In[5]:
-
-#Accessing dictionary
-adict = {1:2}
-adict[3]=4
-adict[5]=6
-adict[7]=8
-adict[9]=10
-print adict
-print adict.items()
-print adict.keys()
-print adict.values()
-print len(adict)
-
-
-# In[6]:
-
-print list(adict)
-print [[k, v] for k, v in adict.items()]
-
-
-# In[7]:
-
-for a in adict:
-    print a, adict[a]
-for b, value in adict.items():
-    print b, value
-
-
-# In[8]:
-
-# Create a dictionary mapping sitename to other data
-sitedict = {}
-
-
-# #Youbike(cont.)
-# * 目前你應該已經知道如何印出list/dictionary中的資料，且能夠操作（加總）其中的資料。
-# * 可是我們要這資料的目的，通常不僅是要知道現在他有多少腳踏車，通常希望能夠知道，在一天內的車輛數變化（所有、每個站台），包含變化的趨勢、變化量、平均台數等等。這時候你會需要把所有的資料抓下來，並且處理。底下為一個已經處理完的資料。
-
-# In[9]:
-
-## list operations - append
-alist = [1, 3, 2, 4, 5, 6, 7, 8, 1, 2, 3, 4, 2, 4, 2]
-b = []
-for a in alist:
-    if a%2 == 0:
-        b.append(a)
-print b 
-
-
-# ## Convert data structure
-# * 目前的資料結構是，一個list裡面，包含著288筆循序資料。每一筆資料是某個時間的全台北市腳踏車資料。
-# * 目前你會的事情是，加總某一筆資料裡面全台北市未借出的腳踏車數量和總停車格數。
-# * 現在我想解決的問題是，在這288個時間點內，全台北市用車的比例（SBI/TOT）。
-
-# In[10]:
-
-import urllib2
-import json
-response = urllib2.urlopen('http://opendata.dot.taipei.gov.tw/opendata/gwjs_cityhall.json')
-data = json.load(response)
 
 
 ##------ THE BLOCK TO ACCUMULATE SBI AND TOT ----------
@@ -145,20 +21,9 @@ print sbi, tot
 ##-----------------------------------------------------
 
 
-# ## Read content of json
-# * 開啟檔案的函式：__file_name = open(FILE_PATH, MODE)__
-#     * FILE_PATH為所要開啟檔案的路徑
-#     * MODE可能是r、w、a、r+等諸模式 (See [file mode](https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files))
-# * __json.load(file_name)__
-#     * 將所獲取的json檔案（無論是線上或者是本地端電腦），轉換為python可以使用者的dictionary或list。
-
-# In[11]:
-
-import json # You don't need to import it again, because you have imported it in the previous code.
-
 # Open and read a file in your local machine
 # 'r' means opening the file for reading, not for writing.
-fjson = open('data/merged_youbike_list.json', 'r')
+fjson = open('merged_youbike_list.json', 'r')
 # load the file as json and convert to the structure formed by dictionary and list
 alldata = json.load(fjson)
 
@@ -227,18 +92,18 @@ plt.show()
 plt.close()
 
 
-# In[1]:
+# In[19]:
 
 # Rescale the x-axis to 0~24 hours
 # %matplotlib inline
 import matplotlib.pyplot as plt
-alist = [1, 3, 2, 4, 1, 3, 2, 4, 1, 3, 1, 3, 2, 3, 2, 4, 2, 4, 1, 3, 24, 1, 3, 24]
-# xlist = []
-# for i in range(288):
-#     ## i/12.0 can rescale the data to 24 hours because each hour has 12 data
-#     xlist.append(i/12.0)
-plt.plot(alist)
-# plt.plot(xlist, sbi_list)
+# alist = [1, 3, 2, 4, 1, 3, 2, 4, 1, 3, 1, 3, 2, 3, 2, 4, 2, 4, 1, 3, 24, 1, 3, 24]
+xlist = []
+for i in range(288):
+    ## i/12.0 can rescale the data to 24 hours because each hour has 12 data
+    xlist.append(i/12.0)
+# plt.plot(sbi_list)
+plt.plot(xlist, sbi_list)
 plt.show()
 # plt.close()
 
@@ -249,7 +114,7 @@ plt.show()
 # * 所以我要計算每個站自己的sbi平均和標準差，顯然第一件事是，我要能把每個腳踏車站在這288個時間點內的所有sbi資料存下來。
 # * 所以我決定造一個對應，把每個站對應到他的sbi list。
 
-# In[37]:
+# In[28]:
 
 import numpy
 sna2sbis = {}
@@ -263,7 +128,7 @@ for site in alldata[0]:
     totdict[site['sna']] = int(site['tot'])
 
 
-# In[40]:
+# In[23]:
 
 # Build a dictionary mapping sna to a list of sbis of 288 timestamp
 sna2sbis = {}
@@ -272,17 +137,14 @@ for tdata in alldata:
         sna2sbis.setdefault(site['sna'], [])
         sna2sbis[site['sna']].append(int(site['sbi']))
 print len(sna2sbis)
+for sna in sna2sbis:
+    print sna, sna2sbis[sna]
 
 
-# In[41]:
+# In[24]:
 
 for sna in sna2sbis:
-    plt.plot(sna2sbis[sna])
-
-
-# In[ ]:
-
-
+    plt.plot(xlist, sna2sbis[sna])
 
 
 # In[39]:
@@ -303,12 +165,13 @@ print len(sna2tot)
 #         y = np.random.rand(N)
 #         colors = np.random.rand(N)
 #         area = np.pi * (15 * np.random.rand(N))**2 # 0 to 15 point radiuses
-# 
+#
 #         plt.scatter(x, y, s=area, c=colors, alpha=0.5)
 #         plt.show()
 
-# In[54]:
+# In[31]:
 
+import numpy
 meanlist = [] # each site's mean of sbi from 288 timestamps
 stdlist = [] # each site's std of sbi from 288 timestamps
 totlist = [] # each site's total number of parking slots
@@ -325,22 +188,32 @@ plt.show()
 plt.close()
 
 
-# In[53]:
+# In[44]:
 
 from matplotlib.font_manager import FontProperties
 # font = FontProperties(fname=r"/library/Fonts/Microsoft/PMingLiU.ttf", size=12)
 font = FontProperties(fname=r"data/PMingLiU.ttf", size=12)
-fig = plt.figure(1,figsize=(16, 9) ,  facecolor='w')
+fig = plt.figure(1, figsize=(16, 9) ,  facecolor='w')
 plt.scatter(meanlist, stdlist, s=totlist, c='blue', alpha=0.1)
 for x, y, l in zip(meanlist, stdlist, labels):
     plt.annotate(
-        l,
-        xy=(x, y),
-        xytext=(0, -10),
+        l, # the label
+        xy=(x, y), # plot the lobel at (x, y)
+        xytext=(0, -10), #
         textcoords='offset points',
-        ha='center',
-        va='top', 
+        ha='center', # horizontal alignment
+        va='top',  # vertical alignment
         fontproperties=font)
+
+# plt.annotate(
+#     u"這是我畫的圖", # the label
+#     xy=(0, 10), # plot the lobel at (x, y)
+#     xytext=(0, -100), #
+#     textcoords='offset points',
+#     ha='center', # horizontal alignment
+#     va='top',  # vertical alignment
+#     fontproperties=font)
+
 plt.show()
 plt.close()
 
@@ -348,7 +221,15 @@ plt.close()
 # ## calculating pearson correlation among them
 # * http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html
 
-# In[26]:
+# In[47]:
+
+import scipy
+from scipy import stats
+p = scipy.stats.pearsonr(meanlist, stdlist)
+print p
+
+
+# In[45]:
 
 import scipy
 from scipy import stats
@@ -364,8 +245,9 @@ print "%.4f\t%.4f"%(r, p)
 # ## Python unicode support
 # * http://python.ez2learn.com/basic/unicode.html
 
-# In[60]:
+# In[51]:
 
+# print sna2sbis.items()[0]
 print sna2sbis[u'丹鳳派出所']
 
 
