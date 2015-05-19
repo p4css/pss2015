@@ -21,6 +21,7 @@
 
 ## 0521
 * [Proposal for term project](http://form.jotform.me/form/51384614243452) Due: 05/27 23:59
+* 有同學問到說Google Map畫到最後得用JavaScript，能不能直接用python寫，答案是沒辦法。因為Google Map就是JavaScript，換個語言，也是去Generate JavaScript Code。只是方便你作業而已。
 
 ##0511
 * [轉載：視覺化實戰 － D3.js 地理區塊視覺化](http://blog.infographics.tw/2015/04/visualize-geographics-with-d3js/)。各位可以下載他的程式碼，然後嘗試更動index.js中的density，或者把density寫成一個json檔案，然後用d3.json去load該json檔案，這樣你就該檔案。
