@@ -40,6 +40,13 @@
 		position: latlng
 		});
 		marker.setMap(map);
+		var mapLabel = new MapLabel({
+		  text: 'TP',
+		  position: new google.maps.LatLng(25.037797, 121.565169),
+		  map: map,
+		  fontSize: 35,
+		  align: 'right'
+		});
 
 		var latlng = new google.maps.LatLng(25.036036, 121.562325);
 		var img = new google.maps.MarkerImage('http://chart.apis.google.com/chart?cht=mm&chs=12x16&chco=FFFFFF,00FF00,000000&ext=.png');

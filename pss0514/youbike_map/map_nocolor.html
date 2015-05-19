@@ -22,6 +22,13 @@
 		position: latlng
 		});
 		marker.setMap(map);
+         var mapLabel = new MapLabel({
+        text: 'Test',
+        position: new google.maps.LatLng(25.040858, 121.567904),
+        map: map,
+        fontSize: 35,
+        align: 'right'
+      });
 
 		var latlng = new google.maps.LatLng(25.041000, 121.556945);
 		var img = new google.maps.MarkerImage('http://chart.apis.google.com/chart?cht=mm&chs=12x16&chco=FFFFFF,0000FF,000000&ext=.png');
