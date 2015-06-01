@@ -19,6 +19,11 @@
 
 # Calendar
 
+## 0527
+* [Practice0527](http://form.jotform.me/form/51512058243447)
+	* Finding cross-discipline journals from journal citation report 102 (snapshop study)
+	* Detecting reputation changes of journals (longitudinal study)
+
 ## 0521
 * [Proposal for term project](http://form.jotform.me/form/51384614243452) Due: 05/27 23:59
 * 有同學問到說Google Map畫到最後得用JavaScript，能不能直接用python寫，答案是沒辦法。因為Google Map就是JavaScript，換個語言，也是去Generate JavaScript Code。只是方便你作業而已。
