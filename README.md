@@ -20,11 +20,12 @@
 # Calendar
 
 ## 0618
-* [Upload final project](http://form.jotform.me/form/51677090397465)
+* [Upload final project (due:06/29 00:00)](http://form.jotform.me/form/51677090397465)
 	* 評分標準：對程式碼的說明與結果的詮釋（50%）、技術難度（30%）、創新議題（20%）
 	* 「你必須」執行過你自己所上傳的程式碼，好讓執行結果顯示在上傳的檔案中。並且要用markdown的方式做註解，好讓別人看得懂你每一個block的程式碼在做什麼，
 	並解釋你執行出來的結果，解釋那些數據代表什麼意思。也就是說，就像寫報告一樣，你得用報告的方式說明你在做什麼，而不是等別人逐行看你的程式碼。
-	* 請上傳一個HTML檔和一個ipynb檔
+	* 請上傳一個壓縮檔，裡面包含一個HTML檔和一個ipynb檔
+	* 若超過容量限制無法上傳請寄給助教宜芳（erin2726@gmail.com）
 
 ## 0527
 * [Practice0527](http://form.jotform.me/form/51512058243447)
