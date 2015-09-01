@@ -17,6 +17,15 @@
 	* [d3.js on nbviwer](http://nbviewer.ipython.org/github/fperez/talk-strata-sc2014/blob/master/d3%20in%20the%20notebook.ipynb), [d3.js examples](http://biovisualize.github.io/d3visualization/)
 	* [highCharts on nbviewer](http://nbviewer.ipython.org/github/gtnx/pandas-highcharts/blob/master/example.ipynb)
 
+# Videos for review
+* 2015/04/16 [分析chrome history - 處理網址次數做排序、轉時間的格式、使用pandas分析](https://icloud.itc.ntnu.edu.tw/navigate/s/C39C87F037374E8C8F747FE697CAE56FVQY)
+* 2015/04/23 [分析chrome history - 將資料import成表格,html檔、時間轉函式、分析網址，做合併、視覺化呈現資料](https://icloud.itc.ntnu.edu.tw/navigate/s/C61297CC31204A2D85A59CDE43209DE3VQY)
+* 2015/05/07 [以Canopy讀python、分析twitter，使用twitter API、期中考題檢討](https://icloud.itc.ntnu.edu.tw/navigate/s/CF4E9FB155C042F7A8B85BDBBD9A3D2AVQY)
+* 2015/05/14 [在google map標注腳踏車站](https://icloud.itc.ntnu.edu.tw/navigate/s/7F85A28B480E45E68798FC1003C0D90EVQY)
+* 2015/05/21 [分析twitter，tag字串的處理](https://icloud.itc.ntnu.edu.tw/navigate/s/EA5D3D769CCB49B2B95BC4BC98AC6DCCVQY)
+* 2015/05/28 [python class說明、讀檔案寫檔案的方法、分析新聞報導](https://icloud.itc.ntnu.edu.tw/navigate/s/BAB9F4D635804002A9BAC0BBF8790913VQY)
+* 2015/06/04 [分析期刊的跨領域使用和引用、分析新聞報導，過濾列出日期和新聞標題](https://icloud.itc.ntnu.edu.tw/navigate/s/1C0311F62DCB4EDD8B40226CFEBE0B5EVQY)
+
 # Calendar
 
 ## 0618
@@ -28,7 +37,7 @@
 	* 若超過容量限制無法上傳請寄給助教宜芳（erin2726@gmail.com）
 
 ## 0527
-* [Practice0527](http://form.jotform.me/form/51512058243447)
+* [Submitting Practice0527](http://form.jotform.me/form/51512058243447)
 	* Finding cross-discipline journals from journal citation report 102 (snapshop study)
 	* Detecting reputation changes of journals (longitudinal study)
 
@@ -40,7 +49,7 @@
 * [轉載：視覺化實戰 － D3.js 地理區塊視覺化](http://blog.infographics.tw/2015/04/visualize-geographics-with-d3js/)。各位可以下載他的程式碼，然後嘗試更動index.js中的density，或者把density寫成一個json檔案，然後用d3.json去load該json檔案，這樣你就該檔案。
 
 ##0430
-* [Practice0430](http://form.jotform.me/form/51178232360449) Due:05/13 23:59
+* [Submitting Practice0430](http://form.jotform.me/form/51178232360449) Due:05/13 23:59
 
 ##0423
 * [Export to .py](https://www.evernote.com/l/ABGj3WVuHxRHF62e1IM5ks3z22tyorTYVJw)
@@ -66,19 +75,19 @@
 	* Export your code and result __as html__ then submit it.
 
 ##0312
-* Practice0312 (closed)
+* Submitting Practice0312 (closed)
 	* [Practice0312](http://nbviewer.ipython.org/github/jirlong/pss2015/blob/master/quiz/Practice0312.ipynb) preview
 	* Download the /quiz/Practice0312.ipynb and modify it to fit the answer.
 	* Export your code and result __as html__ then submit it.
 
 ##0305
-* Practice0305 (Closed)
+* Submitting Practice0305 (Closed)
 	1. Using print-screen to show the json and paste to a file.
 	2. Follow the 1st step, state the hyperlink of the data source, and describe the data.
 	3. If a data field is available on the open data site, upload the description of data field also.
 
 ##0227
-* Practice0227 (Closed)
+* Submitting Practice0227 (Closed)
 * Next week
 	* Must [INSTALL](https://github.com/jirlong/pss2015/blob/master/Lectures/C1-InstallingDevelopmentEnvironments.pdf) Enthought Canopy.
 	* Submit your screenshot of playing Elsa game on code.org to moodle platform.
