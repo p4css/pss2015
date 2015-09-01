@@ -36,57 +36,61 @@
 	* 請上傳一個壓縮檔，裡面包含一個HTML檔和一個ipynb檔
 	* 若超過容量限制無法上傳請寄給助教宜芳（erin2726@gmail.com）
 
-## 0527
+## 0604 News data mining and Information Retrieval
+
+## 0528 Crawling and Storing news data
 * [Submitting Practice0527](http://form.jotform.me/form/51512058243447)
 	* Finding cross-discipline journals from journal citation report 102 (snapshop study)
 	* Detecting reputation changes of journals (longitudinal study)
 
-## 0521
+## 0521 Network Visualization on twitter #hashtag
 * [Proposal for term project](http://form.jotform.me/form/51384614243452) Due: 05/27 23:59
 * 有同學問到說Google Map畫到最後得用JavaScript，能不能直接用python寫，答案是沒辦法。因為Google Map就是JavaScript，換個語言，也是去Generate JavaScript Code。只是方便你作業而已。
 
-##0511
+##0511 Geo-visualization: Mapping youbike data
 * [轉載：視覺化實戰 － D3.js 地理區塊視覺化](http://blog.infographics.tw/2015/04/visualize-geographics-with-d3js/)。各位可以下載他的程式碼，然後嘗試更動index.js中的density，或者把density寫成一個json檔案，然後用d3.json去load該json檔案，這樣你就該檔案。
+
+##0507 Query Twitter data
 
 ##0430
 * [Submitting Practice0430](http://form.jotform.me/form/51178232360449) Due:05/13 23:59
 
-##0423
+##0423 Timeline visualization (by Google Chart API): Chrome histry
 * [Export to .py](https://www.evernote.com/l/ABGj3WVuHxRHF62e1IM5ks3z22tyorTYVJw)
 * [Review hints](https://www.evernote.com/l/ABFHT5lh4MpMPJqx3qcvhVCFPT-ggDxlxbw)
 * [Online book for review](http://www.pythonlearn.com/book.php) Reading Ch.1~9 except Ch.7
 
-##0416
+##0416 Chrome history
 * [Instruction for Practice0326](https://icloud.itc.ntnu.edu.tw/navigate/s/A72A05E0C71C4A7083A2C49893D1580AVQY)
 * Midterm: 04/30
 
 ##0409
 * [Submitting Practice0409](http://form.jotform.me/form/50975309851463) Due 04/15 23:59
 
-##0326
+##0326 Visualizing Youbike data 
 * [Video](https://www.dropbox.com/sh/q41les5hn11anv2/AAAb59rl9nNgGRTlz0sovy24a?lst) Due to Dropbox is not designed for streaming video, please DOWNLOAD them if you needs.
 * [Submitting Practice0326](http://form.jotform.me/form/50843640666459) Due 04/08 23:59
 	* Export your code and result __as html__ then submit it.
 * NEXT WEEK: If you are not a Chrome browser user, please install it temporarily in your computer and try to use it. We will show how to read a local database by using Chrome visit history as an example.
 
-##0319
+##0319 Getting and Processing Youbike data
 * Download 0319 course material from [here](https://www.dropbox.com/s/6o108e07niednxe/Practice0319.zip?dl=0)
 * Practice0319 (Closed)
 	* Export your code and result __as html__ then submit it.
 
-##0312
+##0312 From counting fruits to Youbike
 * Submitting Practice0312 (closed)
 	* [Practice0312](http://nbviewer.ipython.org/github/jirlong/pss2015/blob/master/quiz/Practice0312.ipynb) preview
 	* Download the /quiz/Practice0312.ipynb and modify it to fit the answer.
 	* Export your code and result __as html__ then submit it.
 
-##0305
+##0305 Your first program: Counting the fruit
 * Submitting Practice0305 (Closed)
 	1. Using print-screen to show the json and paste to a file.
 	2. Follow the 1st step, state the hyperlink of the data source, and describe the data.
 	3. If a data field is available on the open data site, upload the description of data field also.
 
-##0227
+##0227 Coding with "Alsa," the snow queen?
 * Submitting Practice0227 (Closed)
 * Next week
 	* Must [INSTALL](https://github.com/jirlong/pss2015/blob/master/Lectures/C1-InstallingDevelopmentEnvironments.pdf) Enthought Canopy.
